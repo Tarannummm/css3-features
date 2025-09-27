@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>overflow</title>
+     <style>
+        .box{
+            border: 1px solid blueviolet;
+            width: 200px;
+            height: 300px;
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+        .ellipsis{
+            width: 200px;
+            border: 3px solid slategray;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /*text-overflow: clip;*/
+
+        }
+     </style>
+
 </head>
 <body>
-    
+    <header>
+       <p title="I am Elina I'm a serious learner.I have to do my studies and web dev simultaniously" class="ellipsis">I am Elina I'm a serious learner.I have to do my studies and web dev simultaniously</p>
+
+    </header>
+    <section>
+        <div class="box">
+            <h3>Box 1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, ullam! Culpa aliquid nulla deserunt explicabo facere autem odio corporis beatae corrupti commodi consequuntur perspiciatis ex quas, perferendis a inventore quod facilis ipsum et velit rerum amet quisquam nemo at. Nihil quod sed fuga earum recusandae quisquam delectus nesciunt laborum et. Molestiae, labore consequuntur? Reiciendis aliquid dolore cumque tempore ullam repellendus nulla amet neque accusamus. Harum, quae. Officiis, expedita esse. Quod non qui aliquid ratione eaque repellendus illo necessitatibus ad consectetur assumenda! Eum, veritatis amet, est iure pariatur nostrum placeat dolores nesciunt illo nemo, deserunt veniam. Recusandae soluta est consequatur impedit!</p>
+        </div>
+         <div class="box">
+            <h3>Box 2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, ullam! Culpa aliquid nulla deserunt explicabo facere autem odio corporis beatae corrupti commodi consequuntur perspiciatis ex quas, perferendis a inventore quod facilis ipsum et velit rerum amet quisquam nemo at. Nihil quod sed fuga earum recusandae quisquam delectus nesciunt laborum et. Molestiae, labore consequuntur? Reiciendis aliquid dolore cumque tempore ullam repellendus nulla amet neque accusamus. Harum, quae. Officiis, expedita esse. Quod non qui aliquid ratione eaque repellendus illo necessitatibus ad consectetur assumenda! Eum, veritatis amet, est iure pariatur nostrum placeat dolores nesciunt illo nemo, deserunt veniam. Recusandae soluta est consequatur impedit!</p>
+        </div>
+         <div class="box">
+            <h3>Box 3</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, ullam! Culpa aliquid nulla deserunt explicabo facere autem odio corporis beatae corrupti commodi consequuntur perspiciatis ex quas, perferendis a inventore quod facilis ipsum et velit rerum amet quisquam nemo at. Nihil quod sed fuga earum recusandae quisquam delectus nesciunt laborum et. Molestiae, labore consequuntur? Reiciendis aliquid dolore cumque tempore ullam repellendus nulla amet neque accusamus. Harum, quae. Officiis, expedita esse. Quod non qui aliquid ratione eaque repellendus illo necessitatibus ad consectetur assumenda! Eum, veritatis amet, est iure pariatur nostrum placeat dolores nesciunt illo nemo, deserunt veniam. Recusandae soluta est consequatur impedit!</p>
+        </div>
+    </section>
+
 </body>
 </html>
